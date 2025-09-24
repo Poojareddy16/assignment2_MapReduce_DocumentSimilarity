@@ -1,0 +1,21 @@
+Document1 apache spark provides distributed processing and enables big data analytics with in memory computations
+Document2 hadoop mapreduce framework supports batch processing and fault tolerance but can be slower than spark
+Document3 cloud computing services like aws and azure provide scalable infrastructure for data storage and analysis
+Document4 python language is widely used for data science machine learning deep learning and visualization tasks
+Document5 scala programming integrates seamlessly with spark and offers functional programming features for big data
+Document6 hive is a data warehouse built on top of hadoop and allows sql like queries for analytics
+Document7 yarn is the resource manager for hadoop and allocates resources to different distributed computing jobs
+Document8 kafka is a messaging system that integrates with spark streaming for real time data processing pipelines
+Document9 machine learning libraries in spark mllib support classification clustering recommendation and regression algorithms
+Document10 structured streaming in spark processes event data continuously and provides low latency computations
+Document11 big data platforms often combine spark hive kafka and hdfs to build scalable end to end solutions
+Document12 cloud based data engineering pipelines transform raw data into structured formats for analysis and reporting
+Document13 nosql databases like cassandra and mongodb scale horizontally and integrate with spark connectors for analytics
+Document14 hdfs replicates data blocks across datanodes to ensure reliability availability and fault tolerance in big data clusters
+Document15 business intelligence dashboards visualize aggregated results from spark sql queries on large scale datasets
+Document16 containerization tools like docker and kubernetes orchestrate spark clusters in cloud environments efficiently
+Document17 mapreduce uses key value pairs as the fundamental programming model for parallel computation across nodes
+Document18 spark sql provides a dataframe api and catalyst optimizer for query execution plans and optimizations
+Document19 jupyter notebooks are widely used by data scientists for prototyping experiments and sharing results interactively
+Document20 distributed systems require careful design for partitioning replication shuffling and minimizing network overhead
+
