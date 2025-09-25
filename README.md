@@ -145,6 +145,17 @@ ds3.txt: MapReduce and Spark are used for Big Data processing
 ```
 ---
 
+## 📊 Performance Comparison: 1 Node vs 3 Nodes
+
+We executed the MapReduce job on a Hadoop cluster with different node configurations and observed the following differences:
+
+| Execution Setup   | Observed Behavior | Time Taken | Notes |
+|-------------------|------------------|------------|-------|
+| **1 Node (Single Datanode)** | All computation and storage handled by a single datanode. Job ran successfully but slower due to no parallelism. | Higher execution time. | Suitable only for testing or very small datasets. |
+| **3 Nodes (Multiple Datanodes)** | Workload distributed across three datanodes. Mapper and Reducer tasks executed in parallel, improving performance. | Noticeably lower execution time. | More scalable, efficient, and fault-tolerant. |
+
+✅ **Conclusion:** Running the job on **3 nodes** significantly reduced execution time and showcased Hadoop’s true advantage—**distributed processing and scalability**.  
+Single-node execution is useful for debugging or practice, but multi-node clusters are necessary for handling larger datasets efficiently.
 
 
 ## Obtained Output: (Place your obtained output here.)
